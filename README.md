@@ -92,7 +92,7 @@ LAS AVENTURAS DE DANITHOO EN YOUTUBE
 
 <main>
   <section class="hero" id="inicio">
-    <div class="block">🟩</div>
+   ㅤ
     <h1>¡BIENVENIDO A <span>DANITHOO_MC!</span></h1>
     <p>Un mundo de Minecraft lleno de aventuras, retos y diversión.</p>
     <a class="btn" href="https://www.youtube.com/@Danithoo_MC"
@@ -199,7 +199,6 @@ LAS AVENTURAS DE DANITHOO EN YOUTUBE
         VISITAR KICK
       </a>
     </article>
- 
    
    ㅤ
    <div class="card">
@@ -223,7 +222,7 @@ LAS AVENTURAS DE DANITHOO EN YOUTUBE
 </section>
 
 <footer>
-  © <span id="year"></span> Danithoo_MC | Hecho con 💚 y bloques.
+2026  © <span id="year"></span> Danithoo_MC | Hecho con 💚 y bloques.
 </footer>
 
 <script>
