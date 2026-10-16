@@ -1,2 +1,234 @@
-# danithoo-mc
+# Danithoo_mc
 LAS AVENTURAS DE DANITHOO EN YOUTUBE
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danithoo_MC | Minecraft</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #101810;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 20px;
+      background: #203c20;
+      border-bottom: 4px solid #63bb28;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .logo { color: #9cff65; font-size: 23px; font-weight: 900; }
+    nav { display: flex; flex-wrap: wrap; gap: 15px; }
+    a { color: white; text-decoration: none; }
+    nav a:hover { color: #9cff65; }
+    .hero {
+      padding: 90px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #234a25, #101810);
+    }
+    h1 { font-size: clamp(30px, 6vw, 60px); }
+    h1 span, h2 { color: #9cff65; }
+    .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      margin: 8px;
+      background: #8be34f;
+      color: #14200f;
+      font-weight: bold;
+      border: 2px solid #b6ff85;
+      box-shadow: 0 4px #426d2c;
+    }
+    section { padding: 55px 20px; text-align: center; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+    .card {
+      background: #1b2b1c;
+      border: 2px solid #355535;
+      padding: 25px;
+    }
+    .card:hover { border-color: #9cff65; }
+    .block {
+      font-size: 65px;
+      margin: 15px;
+    }
+    .about {
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.8;
+    }
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #080d08;
+      color: #b8cbb3;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="#inicio">⛏ DANITHOO_MC</a>
+  <nav>
+    <a href="#videos">Videos</a>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#comunidad">Comunidad</a>
+    <a href="#directos">Directos</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="block">🟩</div>
+    <h1>¡BIENVENIDO A <span>DANITHOO_MC!</span></h1>
+    <p>Un mundo de Minecraft lleno de aventuras, retos y diversión.</p>
+    <a class="btn" href="https://www.youtube.com/@Danithoo_MC"
+       target="_blank" rel="noopener noreferrer">
+      ▶ SUSCRIBIRSE
+    </a>
+    <a class="btn" href="#videos">VER VIDEOS ↓</a>
+  </section>
+
+  <section id="videos">
+    <h2>▰ MIS VIDEOS</h2>
+    <p>¡Descubre mis aventuras en Minecraft!</p>
+    <div class="cards">
+      <article class="card">
+        <div class="block">🌳</div>
+        <h3>Mis aventuras</h3>
+        <p>Explora mis videos y acompáñame a jugar.</p>
+        <a class="btn" href="https://www.youtube.com/@Danithoo_MC/videos"
+           target="_blank" rel="noopener noreferrer">VER VIDEOS</a>
+      </article>
+      <article class="card">
+        <div class="block">💎</div>
+        <h3>Retos y desafíos</h3>
+        <p>¡Nuevos mundos y desafíos por descubrir!</p>
+        <a class="btn" href="https://www.youtube.com/@Danithoo_MC/videos"
+           target="_blank" rel="noopener noreferrer">EXPLORAR</a>
+      </article>
+      <article class="card">
+        <div class="block">⚔️</div>
+        <h3>Momentos épicos</h3>
+        <p>La diversión nunca termina.</p>
+        <a class="btn" href="https://www.youtube.com/@Danithoo_MC/videos"
+           target="_blank" rel="noopener noreferrer">VER MÁS</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="sobre" style="background:#17251a">
+    <h2>▰ SOBRE MÍ</h2>
+    <div class="about">
+      <p>
+        ¡Hola! Soy Danithoo_MC. Bienvenido a mi mundo gamer,
+        donde compartimos aventuras, construcciones y diversión
+        en Minecraft.
+      </p>
+      <p>Suscríbete al canal y forma parte de esta aventura.</p>
+      <a class="btn" href="https://www.youtube.com/@Danithoo_MC"
+         target="_blank" rel="noopener noreferrer">CONOCER MI CANAL</a>
+    </div>
+  </section>
+
+  <section id="comunidad">
+    <h2>▰ COMUNIDAD</h2>
+    <p>¡Tu próxima aventura comienza aquí!</p>
+    <a class="btn"
+       href="https://www.youtube.com/@Danithoo_MC/community"
+       target="_blank" rel="noopener noreferrer">
+      VER PUBLICACIONES
+    </a>
+  </section>
+
+  <section id="directos" style="background:#17251a">
+    <h2>▰ DIRECTOS</h2>
+    <p>¡Visita el canal para encontrar transmisiones y directos!</p>
+    <a class="btn"
+       href="https://www.youtube.com/@Danithoo_MC/streams"
+       target="_blank" rel="noopener noreferrer">
+      VER DIRECTOS
+    </a>
+  </section>
+<section id="redes">
+  <h2>▰ MIS REDES</h2>
+  <p>¡Sígueme en mis plataformas y acompáñame en nuevas aventuras!</p>
+
+  <div class="cards">
+    <article class="card">
+      <div class="block">
+  <img src="https://cdn.simpleicons.org/youtube/FF0000"
+       alt="Logo de YouTube"
+       width="65"
+       height="65"
+       style="vertical-align: middle;">
+</div>
+      <h3>YouTube</h3>
+      <p>¡Mira mis videos de Minecraft!</p>
+      <a class="btn" href="https://www.youtube.com/@Danithoo_MC" target="_blank" rel="noopener noreferrer">
+        VISITAR YOUTUBE
+      </a>
+    </article>
+   
+    
+   ㅤ
+    <article class="card">
+      <div class="block">
+  <img src="https://cdn.simpleicons.org/kick/53FC18"
+       alt="Logo de Kick"
+       width="65"
+       height="65"
+       style="vertical-align: middle;">
+</div>
+      <h3>Kick</h3>
+      <p>¡Ven a visitar mi canal!</p>
+      <a class="btn" href="https://kick.com/danithoo-mc" target="_blank" rel="noopener noreferrer">
+        VISITAR KICK
+      </a>
+    </article>
+ 
+   
+   ㅤ
+   <div class="card">
+    <article class="cards">
+      <div class="block">
+  <img src="https://cdn.simpleicons.org/twitch/9146FF"
+       alt="Logo de Twitch"
+       width="65"
+       height="65"
+       style="vertical-align: middle;">
+</div>
+      <h3>Twitch</h3>
+      <p>¡Acompáñame en mis directos!</p>
+      <a class="btn" href="https://twitch.com/danithoo_mc" target="_blank" rel="noopener noreferrer">
+        VISITAR TWITCH
+      </a>
+    </article>
+ 
+
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Danithoo_MC | Hecho con 💚 y bloques.
+</footer>
+
+<script>
+  document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+</body>
+</html>
